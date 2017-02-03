@@ -7,6 +7,14 @@ $(function() {
     socket.emit('join', nickname);
   });
 
+  socket.on('add user', function(name) {
+    $('#users').append('<li data-name="'+name+'">'+name+'</li>');
+  });
+
+  socket.on('remove user', function(name) {
+    $('li[data-name='+name+']').remove();
+  });
+
   $('#chatForm').submit(function(e) {
     e.preventDefault();
     var message = $('#input').val();
