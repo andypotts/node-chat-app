@@ -1,0 +1,8 @@
+#status {
+  display: none;
+  margin-top: 20px;
+}
+#messages {
+  height: 300px;
+  overflow-y: scroll;
+}
