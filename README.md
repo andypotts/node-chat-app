@@ -1,5 +1,5 @@
-# node-chat-app
-Realtime chat app demo using Node.js and Sockets.io.
+# Node chat app
+A basic realtime chat app demo using Node.js and Sockets.io.
 
 # Installation
 - Run $ npm install - to install the packages
