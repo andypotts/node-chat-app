@@ -1,4 +1,4 @@
-Node chat app
+# Node chat app
 Realtime chat app demo using Node.js and Sockets.io.
 
 # Installation
